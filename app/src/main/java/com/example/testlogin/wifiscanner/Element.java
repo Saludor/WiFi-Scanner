@@ -1,0 +1,29 @@
+package com.example.testlogin.wifiscanner;
+
+/**
+ * Created by testLogin on 23.09.2016.
+ */
+public class Element {
+    private String title;
+    private String security;
+    private String level;
+
+
+    public Element(String title, String security, String level) {
+        this.title = title;
+        this.security = security;
+        this.level = level;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getSecurity() {
+        return security;
+    }
+
+    public String getLevel() {
+        return level;
+    }
+}
